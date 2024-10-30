@@ -14,6 +14,8 @@ export class CounterComponent {
   public counter: number = 10;
   public defaultCounter: number = this.counter;
 
+
+
   increaseBy(value: number):void {
     this.counter +=value;
   }
